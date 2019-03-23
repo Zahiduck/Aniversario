@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cuento_leon">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/cuento_leon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text=" Érase una vez una zorra que la tenía tomada con un viejo e inocente león y siempre le robaba la comida. La muy listilla, todos los días, aprovechaba que el felino dormía o salía a cazar para entrar en su cueva y quitarle los trozos de carne que guardaba para la cena.\n\n
+ Aunque nunca la había pillado con las manos en la masa, al león le habían llegado rumores de que ella era la ladrona y ya estaba hasta las narices de llegar a casa y ver que habían desaparecido todos sus víveres.\n\n
+
+ Un día decidió que tenía que vengarse de su eterna enemiga y se lo comentó a su amigo el guepardo.\n\n
+
+ – ¡Está claro que algo tengo que hacer! Por culpa de esa caradura me quedo muchos días sin probar bocado y no me parece justo. Yo me paso horas buscando comida y ella no hace nada en todo el día y luego se come lo mío ¡Tiene un morro que se lo pisa!\n\n
+
+ – Ciertamente su actitud es intolerable, compañero.\n\n
+
+ – Quiero atraparla para darle un buen escarmiento, pero es muy ágil y yo ya estoy viejo… ¿Algún consejo?\n\n
+
+ Su querido colega el guepardo tuvo una idea que al león le pareció brillante.\n\n
+
+ – Yo creo que la única forma de conseguirlo es haciéndote el muerto. Te tumbas en la hierba en la entrada de la cueva y cuando la zorra entre a robar y pase por tu lado… ¡Zás!… ¡Sacas la zarpa y la enganchas por el rabo!\n\n
+
+ – ¡Es un plan genial, amigo mío! Me voy a casa a ponerlo en práctica ¡Gracias por tu ayuda!\n\n
+
+ Siguiendo al pie de la letra la sugerencia del guepardo, el león se acostó en la entrada de su cueva y se puso panza arriba, muy quieto y muy tieso, fingiendo ser un cadáver. Después esperó, esperó y esperó hasta que por fin, por el rabillo del ojo, vio llegar a la zorra.\n\n
+
+ Contuvo la respiración aguardando a que ella pasara casi rozándole para colarse en  la cueva pero desgraciadamente, esa parte del plan falló. En vez de acercarse, la zorra se quedó a un par de metros de distancia y el falso difunto escuchó que decía:\n\n
+
+ – ¡Uy, parece que el león ha fallecido! Bueno, no puedo estar segura hasta que no se tire tres pedos, porque por todos es sabido que es lo que hacen los leones cuando mueren.\n\n
+
+ La zorra se aseguró de hablar bien alto para que el león la oyera y él, que era bueno e ingenuo, cayó en la trampa. Se concentró y sin mover ni un pelo de los bigotes, se tiró tres enormes y apestosos pedos.\n\n
+
+ ¡PRRRR!               ¡PRRRR!               ¡PRRRR!\n\n
+
+ La zorra se tapó la nariz y empezó a partirse de risa.\n\n
+
+ – ¡Ja, ja, ja! ¡Está claro que sabes tirarte pedos como bombas fétidas, amigo, pero lo que está todavía más claro es que tú estás más vivito y coleando que yo!\n\n
+
+ El león se sonrojó y bastante enfadado se levantó de golpe, pero la zorra ya había puesto en pies en polvorosa y le gritaba desde lejos:\n\n
+
+ – ¡Ay, león, mucho tienes que espabilar para poder coger a una zorrita lista  como yo!\n\n
+
+ El felino tuvo que admitirlo: ¡esa granuja era difícil de atrapar y no le quedaba otra que perfilar un plan mejor!\n\n
+
+ – ¡Soy viejo pero no tan tonto como tú te crees! ¡Ten por seguro que algún día te atraparé!\n\n
+
+ Resignado, entró en la cueva y se puso a pensar en una nueva y original estrategia para conseguir que cayera en sus redes.\n\n
+
+ ¿Lo logró?… ¡Quién sabe!\n\n
+
+ Colorín colorado, este simpático cuento, se ha acabado.\n\n\n"
+            android:textColor="#7A0DFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+</RelativeLayout>

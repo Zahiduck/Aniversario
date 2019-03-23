@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cuento_amigos">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/cuento_amigos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text=" Esta es la historia de dos amigos, Pedro y Ramón, que se querían como hermanos a pesar de no tener vínculo familiar alguno.\n\n
+
+ Tenían una amistad tan grande, que para todos los moradores del pueblo eran como inseparables hermanos o gemelos sin mucho parecido físico, ya que uno era más alto y el otro más grueso, uno rubio y otro trigueño.\n\n
+
+ Su vínculo surgió desde que eran niños. Vivían cerca uno del otro y desde pequeños se adaptaron a jugar juntos y desempeñar todas las tareas en conjunto.\n\n
+
+ Podía vérseles lo mismo jugando a las escondidas que correteando de aquí para allá o dándose un chapuzón en la laguna, o jugando con animales, en fin, todo lo que un niño hace para hacer sus días divertidos.\n\n
+
+ De igual forma, los dos ayudaban mucho en sus casas y compartían las tareas del cole, por lo que los padres de cada uno querían al otro como un hijo más.\n\n
+
+ Así, Pedro y Ramón fueron creciendo, y también lo hicieron su amistad y las labores que hacían juntos.\n\n
+
+ Por supuesto, a medida que maduraban no hacían lo mismo que antes, pero igual se les podía ver juntos haciendo cualquier tarea típica de hombres de pueblo de leñadores como talando árboles, llevando madera al aserradero, vendiéndola o contribuyendo con su fuerza a la ejecución de las obras del vecindario.\n\n
+
+ Asimismo, compartían partidas de ajedrez y naipe, asados, horas de bares y muchas cosas más.\n\n
+
+ Tan inseparables eran que incluso cuando se casaron y tuvieron que construir su casa y su familia, lo hicieron uno al lado del otro, para que sus familias fuesen partícipes también del bello lazo de amistad que los unía.\n\n
+
+ Son muchos los ejemplos y las historias que reafirman que pocas veces se ha visto una amistad como la que unía a estos leñadores. Sin embargo hay una que resulta excepcional.\n\n
+
+ Resulta que un día estaba Pedro profundamente dormido en su hogar, junto a su esposa e hijo pequeño. Había tenido una jornada bastante tranquila en el trabajo y no había sucedido nada que se saliese de su rutina habitual.\n\n
+
+ Sin embargo, de repente despertó sobresaltado, como quien tuviese una gran preocupación o tormento en su cabeza.\n\n
+
+ Sin dar explicación a su cónyuge, extremadamente intrigada por la agitación de su marido, tomó una farola y fue rápido a casa de su vecino y amigo Ramón, al que tocó la puerta con una dureza típica de una persona apurada.\n\n
+
+ En unos segundos, también asustado, Ramón abrió su puerta y al ver a su amigo tan pálido le preguntó:\n\n
+
+ -¿Pasa algo Pedro? ¿Por qué me tocas a la puerta tan tarde en la noche y con ese sobresalto?\n\n
+
+ El interpelado no pudo responder de pronto, pues su nerviosismo y agitación no le dejaban aún recuperar el aliento e hilvanar las ideas para narrar lo sucedido.\n\n
+
+ Ante este silencio Ramón volvió a intervenir.\n\n
+
+ -En serio, dime –le pidió. –Me tienes preocupado. ¿Pasa algo en tu casa? ¿Intentaron robarte? ¿Están bien tu esposa e hijo? ¿Te sucede algo a ti, te sientes enfermo acaso?\n\n
+
+ Ante tanta insistencia, y un poco más recuperado, Pedro pudo responder a Ramón.\n\n
+
+ -Amigo, no pasa nada. Sucede que dormía profundamente y de repente me vi en un extraño sueño, donde corrías un grave peligro. Disculpa mi agitación y mis formas, pero tenía que asegurarme de que tanto tú como tu familia estaban en perfectas condiciones.\n\n
+
+ Agradecido y feliz, Ramón contestó:\n\n
+
+ -¡Qué disculpas ni ocho cuartos! ¿Cómo vas a pedir mi perdón por algo que debería agradecer yo? Tener un amigo que preocupe así por uno es de lo más grande que se puede desear en la vida. Ahora te digo, ten por seguro que yo haría lo mismo por ti, sin importar la hora que fuese.\n\n
+
+ Y así ambos amigos se fundieron en un abrazo y fueron a jugar una partida de naipes y a beber una cerveza hasta que a Pedro se le calmase su sobresalto.\n\n
+
+ Su amistad después de ese día siguió siendo igual de fuerte, tal vez un poco más, lo que demostró a todos los que lo conocían, y a nosotros que nos enteramos ahora de sus peripecias, que amistad como la de ellos hay realmente pocas y que los verdaderos amigos son aquellos que siempre están ahí el uno para el otro, tanto en las buenas como en las malas.\n\n
+
+ En sus familias la historia se repitió con sus hijos, luego con sus nietos, bisnietos y así indefinidamente, aunque por supuesto, ya esas serían otras historias y otros sueños para narrar.\n\n\n"
+            android:textColor="#FF0000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Cuentos"
+    tools:showIn="@layout/activity_cuentos"
+    android:paddingTop="15dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/sopa_piedra"
+        android:layout_width="match_parent"
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:background="@color/naranja"
+        android:layout_height="70dp"
+        android:drawableLeft="@mipmap/ic_launcher_estrella"
+        android:text="Sopa de Piedra"></Button>
+
+</RelativeLayout>

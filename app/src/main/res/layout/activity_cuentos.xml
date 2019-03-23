@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:orientation="vertical"
+    tools:context=".Cuentos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/btn_sopa"
+            android:text="Sopa de Piedra"
+            android:textColor="#FFF"
+            android:background="@color/naranja"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/btn_palabras"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#E84C0C"
+            android:text="Como aprendieron a viajar las palabras"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_gato"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#FF0000"
+            android:text="El gato que soñaba con alcanzar la luna"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_perrito"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#E80CE8"
+            android:text="El perrito junior"
+            android:textColor="#FFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_cerdo"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#7A0DFF"
+            android:text="El cerdo maltratado"
+            android:textColor="#FFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="70dp"
+            android:id="@+id/btn_burro"
+            android:text="La astucia del burro"
+            android:textColor="#FFF"
+            android:background="@color/naranja"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/btn_agua"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#E84C0C"
+            android:text="El agua mágica para el rey"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_amigos"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#FF0000"
+            android:text="El cuento de los amigos"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_ogro"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#E80CE8"
+            android:text="Los tres ogros"
+            android:textColor="#FFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_leon"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#7A0DFF"
+            android:text="El león que se hizo el muerto"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

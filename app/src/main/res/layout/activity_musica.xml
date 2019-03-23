@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Musica">
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/txtFrase2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hola meme, has llegado a la parte de la música, asi que preparate para escuchar algunas canciones que he
+        escogido especialmente para ti, así que me gustaría que las escucharas porque tienen un significado especial para mi                                     ."
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/naranja"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnReproductor"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20sp"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="@string/continuar"
+        android:textColor="@color/whitePrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

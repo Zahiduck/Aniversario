@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cuento_gato">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/cuento_gato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text=" Hace mucho tiempo existió un pueblo con casas de madera y calles de piedra, donde vivían felices muchos gatos. Durante el día acompañaban a sus dueños que los acariciaban y les daban de comer, y en la noche iban saltando de tejado en tejado.\n\n
+
+ Había gatos de todos los tamaños y de las razas más extrañas, pero entre todos ellos Fígaro era especial. Fígaro era un gato de pelaje muy blanco, ojos negros y grandes bigotes. Mientras los demás felinos perseguían a los ratones o jugueteaban sobre los tejados, él prefería contemplar la luna. Pasaba largas horas anonadado, viendo cómo su reflejo plateado bañaba todo el pueblo.\n\n
+
+ -“Te vas a quedar tonto de tanto mirarla”, – le decían los otros gatos que no entendían su interés.\n\n
+
+ Pero a Fígaro esto no le importaba. Aquella vida rutinaria de salir a cazar ratones lo aburría. Aquella misteriosa y distante luna redonda lo hacía soñar. Soñaba con alcanzarla, con abrazarla y con entender qué magia le permitía transformarse de manera tan increíble.\n\n
+
+ Solo su amiga Calipso se preocupaba por él y trataba de que se olvidara de aquella obsesión. Fígaro que disfrutaba hablando con ella le decía: -“¿No ves lo hermosa que es? Hoy está más brillante y grande que nunca, pero también más lejos. ¿Podremos algún día llegar hasta donde está?”\n\n
+
+ Un buen día los gatos dejaron de hacerle caso e incluso Calipso se cansó de escucharlo suspirar. Hasta que Fígaro desapareció de aquel pueblo y nadie fue capaz de encontrarle.\n\n
+
+ -“Se ha ido a perseguir sus sueños. ¿Habrá alcanzado la luna?” – Se preguntaba Calipso nostálgica.\n\n
+
+ Lo cierto es que en las noches de luna llena, si la miras con detenimiento, entre algunas de sus manchas oscuras se distinguen unos bigotes alargados. Y hay quienes dicen que incluso han visto una forma de gato. Pero no todos lo pueden ver, solo aquellos que tienen alma de soñadores.\n\n\n"
+            android:textColor="#FF0000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sonido">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Love"
+        android:textColor="@color/blueDark"
+        android:id="@+id/textView4"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:text="¿Que talla de anillo eres? 7u7"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:id="@+id/textView3"
+        android:layout_gravity="center"
+        android:text="Tengo a la novia mas hermosa de todas :3"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:textSize="23dp"
+            android:id="@+id/btnAnte"
+            android:background="@color/naranja"
+            android:textColor="#FFF"
+            android:text="Ante"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@color/naranja"
+            android:textColor="#FFF"
+            android:textSize="23dp"
+            android:id="@+id/btnPlay"
+            android:text="Play"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:background="@color/naranja"
+            android:textSize="23dp"
+            android:textColor="#FFF"
+            android:id="@+id/btnPause"
+            android:text="Pause"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btnSig"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="23dp"
+            android:background="@color/naranja"
+            android:textColor="#FFF"
+            android:text="Sig"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

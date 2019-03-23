@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cuento_burro">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/cuento_burro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text=" Uno de esos hermosos y cálidos días de primavera, un burro se encontraba comiendo hierba fresca y paseando tranquilamente. Mientras caminaba le pareció ver un lobo con cara de pocos amigos escondido entre las matas.\n\n
+
+ El burrito sabía que de seguro el lobo quería comérselo por lo que él tenía que huir aunque de seguro no iba a poder. Observando los alrededores se percató de que no existían lugares donde poder esconderse y si se echaba a correr sería atrapado por el lobo. La otra opción que le quedaba era pedir auxilio pero nadie le escucharía pues la aldea estaba muy lejos.\n\n
+
+ Muy angustiado ante aquella situación empezó a pensar para ver que podía hacer con tal de liberarse del malvado lobo. El tiempo que le queda era poco pues el feroz animal se acercaba con prisa. De repente una idea alumbró su cabeza y consistía en engañar al lobo haciéndole creer que se había clavado una espina.\n\n
+
+ Para no levantar sospechas el borrico empezó andar bien despacio y a simular una cojera, y con cara de dolor empezó a emitir gemidos. De momento el lobo apareció frente a él con sus colmillos y garras afuera preparado para atacar, pero el burro continuó con su plan y siguió fingiendo.\n\n
+
+ – Menos mal que está usted por aquí es que me ha ocurrido un accidente y solo alguien tan inteligente como usted, señor lobo, podría ayudarme.\n\n
+
+ – ¿Qué es lo que te ha ocurrido?- dijo el lobo muy gustoso ante aquellas palabras y haciéndose el muy preparado.\n\n
+
+ En tono de llanto y al ver que su plan estaba resultando el burrito le dijo:\n\n
+
+ – Como siempre andaba muy distraído y me he clavado una espina en una de las patas traseras. Tengo tanto dolor que casi ni puedo caminar.\n\n
+
+ El lobo ante aquella situación pensó que nada pasaría por ayudar al pobre burrito pues este estando herido no podría escapar de sus garras e igualmente se lo iba a comer.\n\n
+
+ – Levanta la pata para ver que puedo hacer por ti – dijo el lobo.\n\n
+
+ Colocándose detrás del burro agachado empezó a buscar pero no veía ni rastro de aquella astilla que el borrico mencionaba.\n\n
+
+– ¡Aquí no hay nada! – dijo el lobo.\n\n
+
+ – Si, claro que hay, mira bien en mi pesuña pues me duele mucho; si te acercas más podrás verla.\n\n
+
+ Nada más que el lobo pegó sus ojos a la pesuña, el borrico le dio una enorme patada en el hocico y salió rápidamente para protegerse en la granja de su dueño. Por su lado el lobo quedó tendido en el suelo muy golpeado y tenía hasta cinco dientes rotos.\n\n
+
+ – ¡Qué tonto soy! Si no me hubiese creído más listo que nadie, ese borrico no me habría engañado y ahora no estaría aquí tendido en el suelo.\n\n
+
+ Moraleja: Si no sabes hacer las cosas no te metas pues como dice el refrán zapatero a tus zapatos.\n\n\n"
+            android:textColor="@color/naranja"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+</RelativeLayout>

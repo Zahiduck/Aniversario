@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cuento_palabras">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/cuento_palabras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text=" Hace mucho tiempo no existían las palabras, ni las letras, ni la lectura. Hasta que por arte de magia surgió la primera letra en la cabeza de un niño y luego otra, y otra, hasta llegar a 27. Las 27 hermanas estuvieron mucho tiempo encerradas junticas, sin poder salir a conocer el mundo y todas las maravillas que este entrañaba.\n\n
+
+ Hasta un día en que las letras lograron convencer a la señora Boca para que las dejara salir. La señora Boca sopló con fuerza hasta que escaparon cuatro letras, y se escuchó en el viento la primera palabra “mamá”. Luego de esta palabra aparecieron muchas más en la cabeza de aquel niño inquieto “papá”, “nené”, y una a una las letras se escurrían por la señora Boca que se había convertido en su amiga.\n\n
+
+ Así fue como aprendieron a viajar las palabras, que saltaban felices de las bocas a las orejas de los demás niños. Muy pronto se dieron cuenta de que por mucho que lo intentaban, no lograban llegar tan lejos como querían. Con un grito fuerte y el viento a favor lograban avanzar algunos metros, pero no era suficiente si querían viajar por todo el mundo.\n\n
+
+ Hasta que las palabras conocieron al señor Lápiz, un señor alto y muy delgado que podía pintar cualquier cosa en cualquier sitio. Este les ayudaba a llegar a otros lugares donde la señora Boca no podía, pero igual nunca encontraba buenos sitios para pintarlas. Escribía sobre las rocas y los árboles que nadie podía mover, por lo que las palabras quedaban atrapadas para siempre. O sobre la tierra que luego de que llovía, las hacía desaparecer.\n\n
+
+ Ya las palabras estaban a punto de rendirse y aceptar que no podrían viajar más lejos, cuando conocieron al señor Papel. Era muy blanco y ligero, se movía con facilidad por cualquier lugar y estaba dispuesto a ayudarlas.\n\n
+ Las palabras habían encontrado al fin una buena forma para viajar. El señor Lápiz escribía sobre el señor Papel las palabras que le dictaba la señora Boca. Y así fue como viajaron al otro lado del mundo en grandes travesías sin perderse, pudiendo leerlas muchos niños más que ni siquiera las conocían.\n\n\n"
+            android:textColor="#E84C0C"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+</RelativeLayout>

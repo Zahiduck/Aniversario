@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Meme App</string>
+    <string name="frase">Hola Preciosa, \n\nAntes de que sigas, solo quería recordarte que eres la mujer de mi vida y estoy muy agradecido de estar contigo y ser el hombre de tu vida.
+        \n\nTe amo demasiado y siempre estaré para cuidarte y protegerte, nunca te fallaré por que eres la persona con la que quiero pasar el resto de mi vida y tener memesitos.
+        \n\nSi tu así lo quieres, podremos pasar el resto de nuestra vida juntos y seremos esos señores muy felices con una enorme y bonita familia feliz                            ."</string>
+    <string name="continuar">Continuar</string>
+    <string name="cuentos">Cuentos</string>
+    <string name="title_activity_cuentos">Cuentos</string>
+</resources>

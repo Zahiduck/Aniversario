@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cuento_cerdo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/cuento_cerdo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text=" Érase una vez, hace mucho pero muchos años, se escapó de una granja un cerdo que era muy maltratado por el resto de sus compañeros. Partió de la granja y estuvo muchos días caminando sin encontrar un rumbo hasta que encontró un gran rebaño de carneros que se encontraban comiendo pacíficamente en un extenso prado.\n\n
+
+ El pobre cerdito se acerco muy despacio y sin hacer ruido, esperando poder mezclarse con ellos si que lo dañaran. Los carneros no le hicieron ningún daño y además le permitieron que se incorporara al rebaño como si fuera otros de ellos.\n\n
+
+ Pasaron varios días y el cerdito continuó con los carneros hasta el día que el pastor se dio cuenta de que estaba ahí y lo cogió y lo llevó a su casa. Cuando él se vio atrapado por aquel hombre, comenzó a gruñir fuertemente y hacer todo lo posible para tratar de liberarse de las manos del pastor. Los carneros al ver esa situación comenzaron a reñirle fuertemente al pobre cerdo:\n\n
+
+ – Oye amigo no hagas tanto escándalo. Nosotros también somos agarrados por el pastor y no formamos tanta bulla.\n\n
+
+ El cerdo muy molesto les respondió:\n\n
+
+ – No comparen, pues la situación no es la misma ya que cuando el los agarra a ustedes es solo para quitarle la lana, a mi me quiere para quitarme la carne.\n\n
+
+ MORALEJA Hay cosas que ya no puedes volver a tener y por eso si merece la pena llorar pero no debes llorar por aquello que puedes reparar.\n\n\n"
+            android:textColor="#7A0DFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+</RelativeLayout>

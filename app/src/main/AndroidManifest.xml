@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zahiduck.aniversario">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".inicio" />
+        <activity android:name=".principal" />
+        <activity android:name=".Musica" />
+        <activity android:name=".Galeria" />
+        <activity android:name=".sopa_piedra" />
+        <activity android:name=".Cuentos" />
+        <activity android:name=".cuento_palabras" />
+        <activity android:name=".cuento_gato" />
+        <activity android:name=".cuento_perrito" />
+        <activity android:name=".cuento_cerdo" />
+        <activity android:name=".cuento_burro" />
+        <activity android:name=".cuento_agua" />
+        <activity android:name=".cuento_amigos" />
+        <activity android:name=".cuento_leon" />
+        <activity android:name=".cuento_ogros" />
+        <activity android:name=".sonido"></activity>
+    </application>
+
+</manifest>

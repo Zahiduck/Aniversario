@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sopa_piedra">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/cuento_sopa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text=" Hace muchos años, llegaron unos viajeros a una pequeña aldea de Rusia. Eran dos jóvenes y un hombre mayor llamado Iván. Estaban muy cansados y hambrientos, porque habían recorrido una gran distancia. Cuando vieron la aldea se pusieron muy contentos, y pensaron que al fin podrían comer y descansar de su largo camino.\n\n
+ Iván dijo: “Compañeros yo pienso que en esta aldea porfin comeremos, probaremos suerte en esta casa”. Iván se acercó a una casa y tocó la puerta. “¿Quién es?” preguntó una voz de mujer. “Somos tres viajeros camino a nuestros hogares, ¿Podría compartir con nosotros un poco de su comida, buena mujer?”\n\n
+
+ “¿Comida? No, no puedo. No tengo nada que compartir con ustedes”. Dijo la mujer\n\n
+
+ “¡Gracias!” contestaron los tres hombres.\n\n
+
+ Iván tocó otra puerta, pero obtuvo el mismo resultado, nadie abrió y mucho menos los invitaron a cenar. Dijo uno de los jóvenes: “¡Que gente más egoísta!”, dijo otro de los viajeros: “Vamos a hacer una sopa de piedras y ya verán”.\n\n
+ Mientras tanto los viajeros prendieron una fogata en medio de la aldea. Sobre el fuego colocaron una olla que encontraron abandonada en un patio.\n\n
+
+ “Vamos al arroyo por agua” dijo uno de los jóvenes.\n\n
+
+ “Está bien. Y no olviden traer unas piedras para la sopa” gritó Iván para asegurarse que todos en el pueblo lo oyeran, “pero elijan unas sabrosas y redonditas.”\n\n
+
+ Al poco rato los compañeros de Iván regresaron con unas piedras y las pusieron dentro de la olla. “Esta sopa va a quedar muy rica” dijeron los tres.\n\n
+ En un rato la gente ya se había juntado, Iván comenzó a mover la sopa de piedra y luego la probó “¡Mmm, esta muy rica! Sólo le falta un poco de cebolla. Dos amigas ya se habían acercado al fuego y una de ellas dijo que tenía una cebolla en su casa.\n\n
+
+ “¡Que bien!, así le daremos un mejor sabor a nuestra sopa. Traiga también su plato para que cene con nosotros”\n\n
+ La mujer se echo a correr y enseguida volvió con varias cebollas. Iván las puso en la olla de la sopa y después de un rato la probó de nuevo.\n\n
+
+ “¡Qué rica está!, pero con unas zanahorias quedaría mejor”.\n\n
+
+ “Yo tengo algunas en mi casa” dijo otro de los aldeanos. “Voy por ellas”.\n\n
+
+ Casi al instante el aldeano regresó con un pequeño costal de zanahorias muy limpias. Iván las agregó a la sopa y después de un rato volvió a probarla. Y dijo: “Quedaría mejor con un poco de papas” y volvió a probarla y… “¡Ay no!... son muchas papas ya no sabrá rica”. Los aldeanos dijeron: “Que lastima tan rica que estaba quedando”.\n\n
+
+ “Todavía se puede arreglar” dijo Iván, “¿Qué les parece si agregamos un poco de carne?” “Yo tengo en casa” dijo otro aldeano. Por fin el aldeano trajo la carne y se la agregaron a la sopa\n\n
+ Mientras la sopa terminaba de cocinarse, varias personas de la aldea se acercaron para preguntar a los viajeros si cualquiera podía hacer sopa de piedra.\n\n
+
+ “¡Claro que si!” afirmaron Iván y sus compañeros. “Sólo se necesita agua, piedras y un poco de hambre”.\n\n
+
+ Por fin la sopa quedó lista y todos los aldeanos sin darse cuenta compartieron sus alimentos con aquellos viajeros.\n\n\n"
+            android:textColor="@color/naranja"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+</RelativeLayout>
